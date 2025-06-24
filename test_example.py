@@ -28,11 +28,6 @@ def driver():
 def test_google_title(driver):
     driver.get("https://www.google.com")
 
-    # Wait for the search input to appear (max 10 seconds)
-#    WebDriverWait(driver, 10).until(
-#       EC.presence_of_element_located((By.ID, "this-id-does-not-exist"))
-#    )
-
     time.sleep(5)
 
     assert "Google" in driver.title
