@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 # Replace with your actual path
-chrome_driver_path = "/Users/oleksandrpierov/Desktop/tools/selenium/ChromeDriver 137.0.7151.119/chromedriver"
+chrome_driver_path = ""
 
 @pytest.fixture
 def driver():
